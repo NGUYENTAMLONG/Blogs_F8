@@ -1,0 +1,33 @@
+{
+  "name": "blog_f8",
+  "version": "1.0.0",
+  "description": "Blog F8 version 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NGUYENTAMLONG/Blogs_F8.git"
+  },
+  "keywords": [
+    "f8",
+    "blogs",
+    "f8_key",
+    "nodejs"
+  ],
+  "author": "TamLongNguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NGUYENTAMLONG/Blogs_F8/issues"
+  },
+  "homepage": "https://github.com/NGUYENTAMLONG/Blogs_F8#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
