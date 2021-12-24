@@ -2,10 +2,11 @@
   "name": "blog_f8",
   "version": "1.0.0",
   "description": "Blog F8 version 2",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "node index.js",
-    "devStart": "nodemon --inspect index.js",
+    "start": "node ./src/index.js",
+    "devStart": "nodemon --inspect ./src/index.js",
+    "watch": "node-sass -w src/resources/scss/ -o src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,9 +26,13 @@
   },
   "homepage": "https://github.com/NGUYENTAMLONG/Blogs_F8#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "reload": "^3.2.0"
   },
   "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^2.0.15"
   }
 }
